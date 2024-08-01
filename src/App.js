@@ -5,11 +5,13 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import HomeRent from "./pages/HomeRent";
+import SignIn from "./pages/SignIn";
 import HomeBuy from "./pages/HomeBuy";
 import RentDetailPage from "./pages/RentDetailPage";
 import BuyDetailPage from "./pages/BuyDetailPage";
 import SignUp from "./pages/SignUp";
+import HomeRent from "./pages/HomeRent";
+import ResetPassword from "./pages/ResetPassword";
 
 function App() {
   const action = useNavigationType();
@@ -47,6 +49,14 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/home-rent":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/reset-password":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -65,11 +75,13 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<HomeRent />} />
+      <Route path="/" element={<SignIn />} />
       <Route path="/home-buy" element={<HomeBuy />} />
       <Route path="/rent-detail-page" element={<RentDetailPage />} />
       <Route path="/buy-detail-page" element={<BuyDetailPage />} />
       <Route path="/sign-up" element={<SignUp />} />
+      <Route path="/home-rent" element={<HomeRent />} />
+      <Route path="/reset-password" element={<ResetPassword />} />
     </Routes>
   );
 }
