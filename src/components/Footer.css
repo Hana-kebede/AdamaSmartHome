@@ -1,0 +1,213 @@
+.footer-columns-child {
+  width: 1440px;
+  height: 726px;
+  position: absolute;
+  margin: 0 !important;
+  right: -935.7px;
+  bottom: 0;
+  object-fit: cover;
+}
+.footer-location {
+  width: calc(100% + 232.7px);
+  height: calc(100% - 232.7px);
+  position: absolute;
+  margin: 0 !important;
+  top: 736px;
+  right: -232.7px;
+  bottom: -503.3px;
+  left: 0;
+  background: linear-gradient(180deg, rgba(27, 27, 27, 0), #1b1b1b);
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.about-us4 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 45px;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 2;
+}
+.welcome-to-adama {
+  width: 666px;
+  position: absolute;
+  margin: 0 !important;
+  right: -299.6px;
+  bottom: 309px;
+  font-size: var(--h1-size);
+  line-height: 158.52%;
+  color: var(--w);
+  display: inline-block;
+  z-index: 2;
+}
+.read-more-button {
+  width: 126px;
+  height: 42px;
+  z-index: 2;
+}
+.footer-columns2 {
+  height: 736px;
+  width: 503.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-232xl) var(--padding-xl) var(--padding-232xl)
+    var(--padding-117xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-117xl);
+  max-width: 100%;
+}
+.footer-columns-item {
+  width: calc(100% + 232.7px);
+  height: calc(100% - 232.7px);
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -736px;
+  bottom: 232.7px;
+  left: 503.3px;
+  background: linear-gradient(180deg, rgba(27, 27, 27, 0), #1b1b1b);
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.div2 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 63px;
+  z-index: 2;
+}
+.location-placeholder {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  font-size: var(--font-size-13xl);
+}
+.locations {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 80px;
+  z-index: 2;
+}
+.location-title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  color: var(--t);
+}
+.luxury-villas-and {
+  align-self: stretch;
+  position: relative;
+  line-height: 158.52%;
+  font-family: var(--h1);
+  color: var(--color-snow-100);
+  z-index: 2;
+}
+.location-placeholder-parent {
+  width: 267px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.div3,
+.help {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 73px;
+  z-index: 2;
+}
+.help {
+  min-width: 39px;
+}
+.help-placeholder-parent {
+  width: 276px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.footer-columns3,
+.footer2 {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.footer-columns3 {
+  height: 736px;
+  width: 503.3px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: var(--padding-185xl) var(--padding-83xl) var(--padding-185xl-5);
+  position: relative;
+  gap: var(--gap-29xl);
+  text-align: center;
+  font-size: var(--h1-size);
+  color: var(--color-darkorange-200);
+}
+.footer2 {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 0 0 var(--padding-11xs);
+  flex-shrink: 0;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--o);
+  font-family: var(--h3);
+}
+@media screen and (max-width: 1050px) {
+  .about-us4 {
+    line-height: 36px;
+  }
+  .about-us4,
+  .div2,
+  .div3 {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .footer-columns2 {
+    padding-top: var(--padding-144xl);
+    padding-bottom: var(--padding-144xl);
+    box-sizing: border-box;
+  }
+  .footer-columns3 {
+    gap: var(--gap-5xl);
+    padding: var(--padding-114xl) var(--padding-32xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-us4 {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+  .footer-columns2 {
+    gap: var(--gap-49xl);
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .div2,
+  .div3 {
+    font-size: var(--font-size-lgi);
+  }
+}

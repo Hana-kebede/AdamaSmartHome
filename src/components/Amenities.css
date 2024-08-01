@@ -1,0 +1,61 @@
+.icbaseline-balcony-icon {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.balcony-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-20xl);
+}
+.balcony1 {
+  position: relative;
+  line-height: 139.52%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 67px;
+}
+.balcony {
+  width: 170px;
+  border-radius: var(--br-5xs);
+  border: 3px solid var(--l);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-2xl);
+  gap: var(--gap-3xs);
+}
+.amenities,
+.amenities-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.amenities-row {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.amenities {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xl) var(--padding-4xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--h1-size);
+  color: var(--w);
+  font-family: var(--h3);
+}
+@media screen and (max-width: 1050px) {
+  .amenities-row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

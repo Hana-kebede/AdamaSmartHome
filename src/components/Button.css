@@ -1,0 +1,33 @@
+.star-icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button1 {
+  position: relative;
+  font-size: var(--single-line-body-small-strong-size);
+  line-height: 100%;
+  font-weight: 600;
+  font-family: var(--single-line-body-small-strong);
+  color: var(--text-brand-on-brand-secondary);
+  text-align: left;
+  display: inline-block;
+  min-width: 32px;
+}
+.button {
+  cursor: pointer;
+  border: 1px solid var(--background-brand-default);
+  padding: var(--padding-7xs) var(--padding-lg);
+  background-color: transparent;
+  flex: 1;
+  background: linear-gradient(#ff9505, #ff9505), #2c2c2c;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--space-200);
+  z-index: 1;
+}

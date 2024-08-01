@@ -1,0 +1,49 @@
+.bihouse-door-icon6 {
+  height: 62px;
+  width: 71px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.company-logo-name {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs);
+}
+.dream-home4 {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 90px;
+}
+.company-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dream-home-is {
+  align-self: stretch;
+  height: 104px;
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 158.52%;
+  font-family: var(--h3);
+  color: var(--w);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.company-info-parent {
+  width: 313px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  text-align: left;
+  font-size: var(--single-line-body-small-strong-size);
+  color: var(--color-white);
+  font-family: var(--font-wellfleet);
+}

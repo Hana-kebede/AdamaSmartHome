@@ -1,0 +1,44 @@
+.akar-iconsfire {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fireplace-symbol {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mid) 0 var(--padding-base);
+}
+.fire-place {
+  position: relative;
+  line-height: 139.52%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 81px;
+}
+.fireplace,
+.fireplace-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fireplace-icon {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  border: 3px solid var(--l);
+  padding: var(--padding-6xl) var(--padding-21xl);
+  gap: var(--gap-3xs);
+}
+.fireplace {
+  width: 168px;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--h1-size);
+  color: var(--w);
+  font-family: var(--h3);
+}

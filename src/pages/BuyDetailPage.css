@@ -1,0 +1,174 @@
+.bihouse-door-icon3 {
+  width: 39.1px;
+  height: 39.1px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.adama-homes2 {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 98px;
+  white-space: nowrap;
+}
+.brand-container {
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.about-us2,
+.home2 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 40px;
+}
+.about-us2 {
+  min-width: 63px;
+  white-space: nowrap;
+}
+.header2,
+.navigation {
+  width: 470px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  color: var(--w);
+  font-family: var(--single-line-body-small-strong);
+}
+.header2 {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 1175.5px);
+  right: 0;
+  left: 0;
+  background-color: var(--b);
+  padding: var(--padding-smi) var(--padding-116xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--single-line-body-small-strong-size);
+  color: var(--color-white);
+  font-family: var(--font-wellfleet);
+}
+.buy-detail-page-child {
+  position: absolute;
+  top: 672px;
+  left: 1273px;
+  width: 32px;
+  height: 32px;
+  display: none;
+}
+.screenshot-49-1 {
+  position: absolute;
+  top: 1248px;
+  left: 135px;
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  width: 1170px;
+  height: 556px;
+  object-fit: cover;
+}
+.divider-graphic-icon {
+  position: absolute;
+  top: 1804px;
+  left: 281.2px;
+  width: 1px;
+  height: 80px;
+  z-index: 2;
+}
+.features {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 45px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.dream-homes-around {
+  position: relative;
+  font-size: var(--h1-size);
+  line-height: 158.52%;
+  font-family: var(--h1);
+  color: var(--color-gray-200);
+  z-index: 1;
+}
+.neighborhood-info {
+  flex-direction: column;
+}
+.features-parent,
+.neighborhood-info,
+.neighborhood-info-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.neighborhood-info-wrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) var(--padding-10xl);
+}
+.features-parent {
+  position: absolute;
+  top: 867px;
+  left: 134px;
+  width: 1192px;
+  flex-direction: column;
+  gap: var(--gap-8xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--o);
+  font-family: var(--h3);
+}
+.buy-detail-page {
+  width: 100%;
+  height: 2323px;
+  position: relative;
+  background-color: var(--b);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1125px) {
+  .buy-detail-page {
+    height: auto;
+    min-height: 2323;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .header2 {
+    padding-left: var(--padding-48xl);
+    padding-right: var(--padding-48xl);
+    box-sizing: border-box;
+  }
+  .features {
+    font-size: var(--font-size-7xl);
+    line-height: 36px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navigation {
+    display: none;
+  }
+  .header2 {
+    width: 970px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .header2 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .features {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+}

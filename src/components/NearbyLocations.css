@@ -1,0 +1,29 @@
+.location-grid-child {
+  width: 48px;
+  height: 120px;
+  position: relative;
+  z-index: 1;
+}
+.location-grid {
+  width: 1081px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-17xl);
+  max-width: 100%;
+}
+.nearby-locations {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-28xl) var(--padding-34xl-2);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--single-line-body-small-strong-size);
+  color: var(--t);
+  font-family: var(--h3);
+}

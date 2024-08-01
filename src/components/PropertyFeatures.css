@@ -1,0 +1,521 @@
+.features-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-52xl) var(--padding-5xl);
+  font-size: var(--font-size-13xl);
+  color: var(--o);
+}
+.full-kitchen-cabinet {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.full-kitchen-cabinet-container {
+  margin: 0;
+  width: 301px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.feature-list,
+.feature-list1 {
+  width: 491px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-3xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.feature-list1 {
+  padding: 0 var(--padding-xl) var(--padding-2xl);
+}
+.rules {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 45px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 91px;
+}
+.rules-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-52xl) var(--padding-mid);
+  font-size: var(--font-size-13xl);
+  color: var(--o);
+}
+.minimum-lease-period-container {
+  margin: 0;
+  width: 459px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.feature-list5 {
+  width: 649px;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-mid);
+}
+.feature-list5,
+.feature-list6,
+.neighborhood-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.feature-list6 {
+  width: 649px;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-23xl);
+}
+.neighborhood-wrapper {
+  justify-content: flex-start;
+  padding: 0 var(--padding-44xl);
+  font-size: var(--font-size-13xl);
+  color: var(--o);
+}
+.dream-homes-around2 {
+  position: relative;
+  line-height: 158.52%;
+  z-index: 1;
+}
+.screenshot-49-13 {
+  border: 0;
+  height: 556px;
+  width: 1170px;
+  position: absolute;
+  margin: 0 !important;
+  right: -898px;
+  bottom: -532px;
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  background-image: url(/public/screenshot-49-1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.dream-homes-around-adama-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-44xl) var(--padding-37xl);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  font-size: var(--h1-size);
+  color: var(--color-gray-200);
+  font-family: var(--h1);
+}
+.frame-child15 {
+  height: 120px;
+  width: 48px;
+  position: relative;
+  z-index: 1;
+}
+.property-features-inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-50xl) var(--padding-17xl);
+}
+.testimonies {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 45px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.testimonies-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-44xl) var(--padding-16xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+  color: var(--o);
+}
+.aman {
+  margin: 0 !important;
+  width: 305px;
+  position: absolute;
+  top: 16px;
+  right: -36px;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.frame-child16 {
+  width: 350px;
+  height: 200px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.ellipse-icon {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+.ellipse-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+}
+.the-house-was {
+  margin: 0;
+}
+.the-house-was-container {
+  margin: 0;
+  width: 308px;
+  height: 112px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.rectangle-parent4 {
+  flex: 1;
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-4xs) var(--padding-sm) var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-smi);
+  color: var(--color-black);
+  font-family: var(--font-luxurious-roman);
+}
+.aman-parent,
+.rectangle-parent4,
+.testimonial-cards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.aman-parent {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.testimonial-cards {
+  flex: 0.9695;
+  flex-direction: column;
+  padding: 0 var(--padding-17xl) 0 0;
+  box-sizing: border-box;
+  min-width: 251px;
+}
+.arrowleft-icon2 {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 32px;
+  height: 38.3px;
+  overflow: hidden;
+}
+.ellipse-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--l);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.arrowleft-parent {
+  height: 64px;
+  flex: 1;
+  position: relative;
+}
+.testimonial-cards1 {
+  width: 63px;
+  margin: 0 !important;
+  position: absolute;
+  top: 64px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-child17 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--l);
+  width: 100%;
+  height: 100%;
+}
+.arrowleft-icon3 {
+  position: absolute;
+  top: 13px;
+  left: 12px;
+  width: 32px;
+  height: 38.3px;
+  overflow: hidden;
+  object-fit: contain;
+  z-index: 1;
+}
+.testimonial-cards2 {
+  width: 63px;
+  margin: 0 !important;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hana {
+  margin: 0;
+  height: 29px;
+  width: 299px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.hana-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.frame-child18 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.frame-child19 {
+  position: absolute;
+  top: 8px;
+  left: 26px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  z-index: 3;
+}
+.rectangle-parent5 {
+  width: 350px;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.the-house-is {
+  margin: 0;
+  width: 308px;
+  height: 112px;
+  position: relative;
+  font-family: var(--font-luxurious-roman);
+  color: var(--color-black);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.testimonial-cards3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 var(--padding-5xl) var(--padding-6xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-lgi);
+  min-width: 251px;
+  max-width: 100%;
+}
+.ananiya,
+.frame-child21 {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 5;
+}
+.frame-child21 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.ananiya {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 84px;
+}
+.ananiya-wrapper,
+.ellipse-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ananiya-wrapper {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.ellipse-group {
+  flex-direction: row;
+  gap: var(--gap-smi-2);
+}
+.fantastic-house-and {
+  margin: 0;
+  height: 112px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  z-index: 5;
+}
+.fantastic-house-and-friendly-n-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-8xs);
+  color: var(--color-black);
+  font-family: var(--font-luxurious-roman);
+}
+.rectangle-parent6 {
+  width: 350px;
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-5xs) var(--padding-2xs) var(--padding-5xl)
+    var(--padding-7xl);
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+  z-index: 4;
+}
+.property-features,
+.rectangle-parent6,
+.testimonial-carousel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.testimonial-carousel {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-58xl);
+  box-sizing: border-box;
+  position: relative;
+  row-gap: 20px;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-100);
+}
+.property-features {
+  flex: 1;
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--h3-size);
+  color: var(--t);
+  font-family: var(--h3);
+}
+@media screen and (max-width: 1300px) {
+  .testimonial-cards,
+  .testimonial-cards3 {
+    flex: 1;
+  }
+  .testimonial-carousel {
+    flex-wrap: wrap;
+    padding-left: var(--padding-19xl);
+    padding-right: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .rules,
+  .testimonies {
+    font-size: var(--font-size-7xl);
+    line-height: 36px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .features-wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .full-kitchen-cabinet-container {
+    font-size: var(--font-size-lgi);
+  }
+  .rules {
+    line-height: 27px;
+  }
+  .minimum-lease-period-container,
+  .rules {
+    font-size: var(--font-size-lgi);
+  }
+  .dream-homes-around-adama-parent,
+  .neighborhood-wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .testimonies {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+  .testimonies-wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .aman,
+  .ananiya,
+  .fantastic-house-and,
+  .hana,
+  .the-house-is,
+  .the-house-was-container {
+    font-size: var(--h1-size);
+  }
+}

@@ -1,0 +1,398 @@
+.bihouse-door-icon1 {
+  width: 39.1px;
+  height: 39.1px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.adama-homes {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 98px;
+}
+.bihouse-door-parent {
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.about-us,
+.home,
+.view-homes {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 40px;
+}
+.about-us,
+.view-homes {
+  min-width: 63px;
+}
+.view-homes {
+  min-width: 85px;
+}
+.riarrow-drop-down-line-icon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.view-homes-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.login {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 38px;
+}
+.header,
+.home-parent,
+.login-wrapper {
+  flex-direction: row;
+  align-items: center;
+}
+.login-wrapper {
+  height: 42px;
+  border-radius: var(--br-5xs);
+  background-color: var(--w);
+  display: flex;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-5xl);
+  box-sizing: border-box;
+  color: var(--b);
+}
+.header,
+.home-parent {
+  justify-content: space-between;
+}
+.home-parent {
+  width: 470px;
+  display: flex;
+  max-width: calc(100% - 118px);
+  color: var(--w);
+  font-family: var(--single-line-body-small-strong);
+}
+.header {
+  align-self: stretch;
+  height: 82px;
+  background-color: var(--b);
+  display: none;
+  padding: var(--padding-base) var(--padding-116xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  z-index: 0;
+}
+.rent-detail-page-child {
+  width: 32px;
+  height: 32px;
+  display: none;
+  z-index: 1;
+}
+.adama-homes1 {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 98px;
+  white-space: nowrap;
+}
+.home1 {
+  position: relative;
+  min-width: 40px;
+  cursor: pointer;
+}
+.about-us1 {
+  position: relative;
+  min-width: 63px;
+  white-space: nowrap;
+}
+.frame-inner {
+  width: 100px;
+  height: 24px;
+}
+.frame-button {
+  height: 42px;
+}
+.frame-button:hover {
+  background-color: #e6e3e3;
+}
+.header1,
+.home-group {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.home-group {
+  width: 470px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-37xl);
+}
+.header1 {
+  align-self: stretch;
+  height: 82px;
+  background-color: var(--b);
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-116xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--single-line-body-small-strong-size);
+  color: var(--color-white);
+  font-family: var(--font-wellfleet);
+}
+.rent-detail-page-item {
+  width: 1px;
+  height: 80px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 747px;
+  left: 281.2px;
+  z-index: 2;
+}
+.property-features-wrapper {
+  width: 1420px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 72px var(--padding-38xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contact-us1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+}
+.deam-home-villas {
+  align-self: stretch;
+  position: relative;
+}
+.call-calling-icon1 {
+  width: 15px;
+  height: 14.4px;
+  position: relative;
+}
+.phone-icon1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-8) 0 0;
+}
+.phone-number2 {
+  flex: 1;
+  position: relative;
+}
+.phone {
+  width: 134.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.infodreamhomecom {
+  width: 176px;
+  position: relative;
+  display: inline-block;
+}
+.darkicon1 {
+  height: 19px;
+  width: 19.8px;
+  position: relative;
+}
+.email-icon1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-4xs);
+}
+.address,
+.email1 {
+  flex-direction: column;
+}
+.email1 {
+  width: 203.8px;
+  height: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.address {
+  flex: 1;
+  gap: var(--gap-xs);
+}
+.address,
+.address-wrapper,
+.contact-us-parent,
+.footer-columns1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.address-wrapper {
+  width: 231px;
+  flex-direction: row;
+  font-size: var(--h1-size);
+  color: var(--color-gray-400);
+}
+.contact-us-parent,
+.footer-columns1 {
+  width: 206px;
+  flex-direction: column;
+  gap: var(--gap-lg);
+}
+.footer-columns1 {
+  width: 1170px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.divider1,
+.footer-content1 {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.footer-content1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+}
+.divider1 {
+  height: 2px;
+  background-color: var(--color-snow-200);
+  border: 1px solid var(--l);
+}
+.alyeska-resor1,
+.divider1 {
+  position: relative;
+  mix-blend-mode: normal;
+}
+.copyright1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.footer,
+.footer-divider,
+.rent-detail-page {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footer-divider {
+  align-self: stretch;
+  gap: var(--gap-13xl);
+  text-align: center;
+  font-size: var(--single-line-body-small-strong-size);
+  color: var(--t);
+  font-family: var(--h1);
+}
+.footer,
+.rent-detail-page {
+  text-align: left;
+  color: var(--color-white);
+}
+.footer {
+  align-self: stretch;
+  gap: var(--gap-36xl);
+  max-width: 100%;
+  font-size: var(--h3-size);
+  font-family: var(--h3);
+}
+.rent-detail-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--b);
+  overflow: hidden;
+  padding: 0 0 45px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: var(--single-line-body-small-strong-size);
+  font-family: var(--font-wellfleet);
+}
+@media screen and (max-width: 1300px) {
+  .property-features-wrapper {
+    padding-bottom: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .header1 {
+    padding-left: var(--padding-48xl);
+    padding-right: var(--padding-48xl);
+    box-sizing: border-box;
+  }
+  .property-features-wrapper {
+    padding-bottom: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .footer-columns1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .home-parent {
+    flex-wrap: wrap;
+  }
+  .header {
+    height: auto;
+  }
+  .home-group {
+    display: none;
+  }
+  .property-features-wrapper {
+    padding-left: var(--padding-17xl);
+    padding-right: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .footer-divider {
+    gap: var(--gap-base);
+  }
+  .footer {
+    gap: var(--gap-8xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .header1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .property-features-wrapper {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .contact-us1 {
+    font-size: var(--font-size-lgi);
+  }
+}

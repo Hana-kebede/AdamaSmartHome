@@ -1,0 +1,627 @@
+.hero-deco-icon,
+.subtract-icon {
+  position: absolute;
+  margin: 0 !important;
+}
+.hero-deco-icon {
+  width: 1px;
+  height: 80px;
+  bottom: 1909px;
+  left: 281.2px;
+  z-index: 2;
+}
+.subtract-icon {
+  width: 100%;
+  height: 726px;
+  right: 0;
+  bottom: 381px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.contact-background {
+  margin-right: -1px;
+  margin-bottom: 40px;
+  align-self: stretch;
+  height: 136px;
+  position: relative;
+  background: linear-gradient(180deg, rgba(27, 27, 27, 0), #1b1b1b);
+  transform: rotate(-180deg);
+  flex-shrink: 0;
+  z-index: 1;
+}
+.dream-home {
+  color: var(--o);
+}
+.did-you-find-container,
+.thank-you-for {
+  margin: 0;
+  position: relative;
+  font-family: inherit;
+  z-index: 1;
+}
+.did-you-find-container {
+  align-self: stretch;
+  font-size: inherit;
+  font-weight: 700;
+}
+.thank-you-for {
+  width: 571px;
+  height: 115px;
+  font-size: var(--font-size-13xl);
+  line-height: 111.02%;
+  font-weight: 400;
+  color: var(--t);
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.form-input-fields,
+.form-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.form-title {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.form-input-fields {
+  width: 610px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-3xs-8);
+  box-sizing: border-box;
+  min-width: 610px;
+}
+.your-name {
+  border: 0;
+  outline: 0;
+  font-family: var(--h3);
+  font-size: var(--h1-size);
+  background-color: transparent;
+  position: relative;
+  color: var(--color-whitesmoke-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 90px;
+  padding: 0;
+  z-index: 1;
+}
+.name-phone-icons {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.message,
+.phone-number {
+  border: 0;
+  background-color: transparent;
+  font-family: var(--h3);
+  font-size: var(--h1-size);
+  outline: 0;
+  position: relative;
+  color: var(--color-whitesmoke-100);
+  text-align: left;
+  z-index: 1;
+}
+.phone-number {
+  display: inline-block;
+  min-width: 125px;
+  padding: 0;
+}
+.message {
+  width: 136px;
+  display: flex;
+  align-items: center;
+}
+.name-phone-fields {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-44xl);
+  min-width: 148px;
+}
+.interested-in,
+.your-email {
+  position: relative;
+  display: inline-block;
+}
+.your-email {
+  border: 0;
+  outline: 0;
+  font-family: var(--h3);
+  font-size: var(--h1-size);
+  background-color: transparent;
+  color: var(--color-whitesmoke-100);
+  text-align: left;
+  min-width: 87px;
+  padding: 0;
+  z-index: 1;
+}
+.interested-in {
+  min-width: 102px;
+  flex-shrink: 0;
+}
+.interested-in-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.riarrow-drop-down-line-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.interested-input {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.interested-field,
+.name-phone-input {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.interested-field {
+  text-decoration: none;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+  color: inherit;
+}
+.name-phone-input {
+  flex-direction: row;
+  gap: var(--gap-mini);
+}
+.submit-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.name-phone {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.submit {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 53px;
+}
+.input-fields,
+.submit-button {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.submit-button {
+  border-radius: var(--br-5xs);
+  background-color: var(--w);
+  flex-direction: row;
+  padding: 11.4px var(--padding-17xl);
+  z-index: 1;
+  font-size: var(--single-line-body-small-strong-size);
+  color: var(--b);
+}
+.input-fields {
+  width: 469.7px;
+  flex-direction: column;
+  gap: var(--gap-44xl);
+  min-width: 469.7px;
+  max-width: 100%;
+  font-size: var(--h1-size);
+  color: var(--color-whitesmoke-100);
+}
+.form-content,
+.form-fields {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.form-fields {
+  width: 1168.7px;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.form-content {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) var(--padding-188xl-2) var(--padding-xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.bihouse-door-icon {
+  height: 62px;
+  width: 71px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dream-home-title-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs);
+}
+.dream-home1 {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 90px;
+  z-index: 1;
+}
+.dream-home-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.at-adama-homes {
+  align-self: stretch;
+  height: 104px;
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 158.52%;
+  font-family: var(--h3);
+  color: var(--w);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.footer-columns {
+  width: 338px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  max-width: 100%;
+  font-family: var(--font-wellfleet);
+}
+.contact-us {
+  margin: 0;
+  position: relative;
+  font-size: var(--h3-size);
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--color-white);
+}
+.buyrentsell-homes-in {
+  align-self: stretch;
+  position: relative;
+}
+.call-calling-icon {
+  width: 15px;
+  height: 14.4px;
+  position: relative;
+}
+.phone-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-8) 0 0;
+}
+.div {
+  flex: 1;
+  position: relative;
+}
+.phone-number1 {
+  width: 134.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.darkicon {
+  height: 19px;
+  width: 19.8px;
+  position: relative;
+}
+.adhomesgmailcom {
+  flex: 1;
+  position: relative;
+  white-space: nowrap;
+}
+.contact-column,
+.contact-details,
+.email {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.email {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.contact-column,
+.contact-details {
+  width: 221.8px;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.contact-column {
+  width: 231px;
+  gap: var(--gap-mid);
+  font-size: var(--h1-size);
+  color: var(--color-gray-400);
+}
+.follow-us {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 124px;
+}
+.social-media-backgrounds {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--b2);
+  width: 100%;
+  height: 100%;
+}
+.akar-iconsinstagram-fill {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  z-index: 1;
+}
+.social-media-backgrounds-parent {
+  height: 32px;
+  width: 32px;
+  position: relative;
+}
+.ant-designyoutube-outlined-icon {
+  position: absolute;
+  top: 8px;
+  left: 8.5px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  z-index: 1;
+}
+.follow-us-content,
+.social-media {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.follow-us-content {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.android-globe-icon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  object-fit: cover;
+}
+.english-en {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--h3);
+  color: var(--t);
+  text-align: left;
+  display: inline-block;
+  min-width: 108px;
+}
+.arrowleft-icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.english-en-parent,
+.language {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.english-en-parent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.language {
+  cursor: pointer;
+  border: 0.4px solid var(--t);
+  padding: var(--padding-sm) var(--padding-lg);
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.follow-us-column,
+.footer-content {
+  display: flex;
+  align-items: flex-start;
+}
+.follow-us-column {
+  width: 205px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-45xl);
+  font-size: var(--h3-size);
+}
+.footer-content {
+  width: 1170px;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.divider,
+.footer-content-wrapper {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.footer-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-4xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--single-line-body-small-strong-size);
+  color: var(--color-white);
+  font-family: var(--h3);
+}
+.divider {
+  height: 2px;
+  background-color: var(--color-snow-200);
+  border: 1px solid var(--l);
+}
+.alyeska-resor,
+.divider {
+  position: relative;
+  mix-blend-mode: normal;
+}
+.copyright {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  text-align: center;
+  font-size: var(--single-line-body-small-strong-size);
+  color: var(--t);
+  font-family: var(--h1);
+}
+.contact-us-form,
+.home-buy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.contact-us-form {
+  align-self: stretch;
+  align-items: flex-start;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--h11-size);
+  color: var(--w);
+  font-family: var(--h3);
+}
+.home-buy {
+  width: 100%;
+  height: 5527px;
+  position: relative;
+  background-color: var(--b);
+  overflow: hidden;
+  align-items: flex-end;
+  padding: var(--padding-779xl) 0 var(--padding-18xl);
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .form-input-fields,
+  .input-fields {
+    flex: 1;
+  }
+  .form-fields {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .did-you-find-container {
+    font-size: var(--font-size-32xl);
+  }
+  .thank-you-for {
+    font-size: var(--font-size-7xl);
+    line-height: 28px;
+  }
+  .footer-content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 750px) {
+  .form-input-fields,
+  .input-fields {
+    min-width: 100%;
+  }
+  .input-fields {
+    gap: var(--gap-12xl);
+  }
+  .form-content {
+    padding-bottom: var(--padding-116xl);
+    box-sizing: border-box;
+  }
+  .contact-us-form,
+  .home-buy {
+    gap: var(--gap-base);
+  }
+  .home-buy {
+    height: auto;
+  }
+}
+@media screen and (max-width: 450px) {
+  .did-you-find-container {
+    font-size: var(--font-size-19xl);
+  }
+  .thank-you-for {
+    font-size: var(--font-size-lgi);
+    line-height: 21px;
+  }
+  .name-phone-input {
+    flex-wrap: wrap;
+  }
+  .contact-us,
+  .follow-us {
+    font-size: var(--font-size-lgi);
+  }
+}

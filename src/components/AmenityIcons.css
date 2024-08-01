@@ -1,0 +1,45 @@
+.icoutline-local-laundry-servi-icon {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.amenity-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-22xl) 0 var(--padding-20xl);
+}
+.laundry-facilities {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 127px;
+}
+.amenity-icons,
+.amenity-pair {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.amenity-pair {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  border: 3px solid var(--l);
+  padding: var(--padding-6xl) var(--padding-mid) var(--padding-6xl)
+    var(--padding-lg);
+  gap: var(--gap-3xs);
+}
+.amenity-icons {
+  width: 170px;
+  padding: var(--padding-base) 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--single-line-body-small-strong-size);
+  color: var(--w);
+  font-family: var(--h3);
+}
